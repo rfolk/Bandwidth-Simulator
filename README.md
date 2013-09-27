@@ -37,8 +37,8 @@ Refer to LICENSE.md for all pertenant licensing information.
 
 Contact Information
 -------------------
-Russell Folk
-rfolk@nmsu.edu
+Russell Folk  
+rfolk@nmsu.edu  
 C S 484 – Fall 2013
 
 Known Bugs
