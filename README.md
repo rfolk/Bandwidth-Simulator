@@ -1,5 +1,5 @@
-                       Bandwidth Fulfillment Simulator
-                       ===============================
+Bandwidth Fulfillment Simulator
+===============================
 
 This simulator assumes that there is a 1 Mbps link that grants users a 100 Kbps
 connection when they are active. The service has 35 subscribers with only 10%
@@ -24,6 +24,9 @@ File Manifest
 <dl>
   <dt>LICENSE.md</dt>
   <dd>BSD 2-Clause license information</dd>
+  <dt>.gitignore</dt>
+  <dd>Based off the Github default C .gitignore file with my binary locations
+  added as well.</dd>
 </dl>
 
 
@@ -57,4 +60,5 @@ Changelog
   <dd>Initial README file. Mostly filled out, will be added to as I complete
   the project.</dd>
   <dd>Initial LICENSE file. Completed and finalized.</dd>
+  <dd>Inital .gitignore file added.</dd>
 </dl>
