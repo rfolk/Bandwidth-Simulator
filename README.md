@@ -9,7 +9,9 @@ time and thus experience connection issues.
 
 Configuration
 -------------
-
+User must have a compiler supporting C99 functionality in order to run this
+program. This program makes use of the long long number which is a 64-bit
+integer data type supported by C99.
 
 Installation
 ------------
@@ -27,6 +29,20 @@ File Manifest
   <dt>.gitignore</dt>
   <dd>Based off the Github default C .gitignore file with my binary locations
   added as well.</dd>
+  <dt>factorial.h</dt>
+  <dd>Header file for partial factorial functionality.</dd>
+  <dt>factorial.c</dt>
+  <dd>Source file for partial factorial functionality.</dd>
+  <dt>combinations.h</dt>
+  <dd>Header file for combinations (nCk) functionality.</dd>
+  <dt>combinations.c</dt>
+  <dd>Source file for combinations (nCk) functionality.</dd>
+  <dt>factorial_test.c</dt>
+  <dd>A C99 program to test that partial factorials are being calculated
+  correctly in a limited number of scenarios.</dd>
+  <dt>combinations_test.c</dt>
+  <dd>A C99 program to test that combinations (nCk) are being calculated
+  correctly in a limited number of scenarios.</dd>
 </dl>
 
 
@@ -56,6 +72,11 @@ Credits & Acknowledgments
 Changelog
 ---------
 <dl>
+  <dt>v0.0.2</dt>
+  <dd>Added partial factorial functionality.</dd>
+  <dd>Added combination (nCk) functionality.</dd>
+  <dd>Added C99 requirement to configuration because of “unsigned long long”
+  functionality.</dd>
   <dt>v0.0.1</dt>
   <dd>Initial README file. Mostly filled out, will be added to as I complete
   the project.</dd>
