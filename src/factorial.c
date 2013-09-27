@@ -11,9 +11,9 @@
 
 //  Cannot calculate a product greater than 18446744073709551615
 unsigned long long
-factorial ( int start , int end )
+factorial ( unsigned short start , unsigned short end )
 {
-  int index ;
+  unsigned short index ;
   unsigned long long fact = 1 ;
 
   for ( index = start ; index <= end ; index ++ )

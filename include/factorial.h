@@ -10,6 +10,6 @@
 
 //  Limited to a product no greater than 18446744073709551615
 unsigned long long
-factorial ( int start , int end ) ;
+factorial ( unsigned short start , unsigned short end ) ;
 
 #endif
