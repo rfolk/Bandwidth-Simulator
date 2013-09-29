@@ -4,17 +4,17 @@
   * a traditional factorial pass '1' as the start variable.
   *
   * Created: 2013-09-26
-  * Revised:
+  * Revised: 2013-09-29
   */
 
 #include "../include/factorial.h"
 
-//  Cannot calculate a product greater than 18446744073709551615
-unsigned long long
+//  Cannot calculate with greater than 2^80 precision
+long double
 factorial ( unsigned short start , unsigned short end )
 {
   unsigned short index ;
-  unsigned long long fact = 1 ;
+  long double    fact = 1 ;
 
   for ( index = start ; index <= end ; index ++ )
     fact *= index ;

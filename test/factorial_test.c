@@ -4,9 +4,9 @@
 
 int main ( void )
 {
-  unsigned long long f ;
+  long double f ;
   f = factorial ( 1 , 5 ) ;
-  if ( f == 120 )
+  if ( ( int ) f == 120 )
     printf ( "5! calculated correctly.\n" ) ;
   else
   {
@@ -14,7 +14,7 @@ int main ( void )
     exit ( -1 ) ;
   }
   f = factorial ( 5 , 10 ) ;
-  if ( f == 151200 )
+  if ( ( int ) f == 151200 )
     printf ( "10!/4! calculated correctly.\n" ) ;
   else
   {

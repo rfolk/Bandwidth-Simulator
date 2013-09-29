@@ -4,18 +4,18 @@
   * Uses the partial factorial function.
   *
   * Created: 2013-09-26
-  * Revised: 2013-09-27
+  * Revised: 2013-09-29
   */
 
 #include "../include/combinations.h"
 
 // Calculate (n!)/(k!(n-k)!)
-unsigned long long
+long double
 n_choose_k ( unsigned short n , unsigned short k )
 {
-  unsigned long long numerator ;
-  unsigned long long denominator ;
-  unsigned long long combination ;
+  long double numerator ;
+  long double denominator ;
+  long double combination ;
   unsigned short n_minus_k = n - k ;
 
   if ( n_minus_k > k)
