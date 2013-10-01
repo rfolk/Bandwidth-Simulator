@@ -1,16 +1,16 @@
 /**
-  * Header to src/combinations.c
-  *
-  * Created: 2013-09-26
-  * Revised: 2013-09-29
-  */
+	* Header to src/combinations.c
+	*
+	* Created: 2013-09-26
+	* Revised: 2013-09-30
+	*/
 
 #ifndef __COMBINATIONS_H__
-  #define __COMBINATIONS_H__
+	#define __COMBINATIONS_H__
 
-  #include "factorial.h"
+	#include "factorial.h"
 
-  long double
-  n_choose_k ( unsigned short n , unsigned short k ) ;
+	double
+	n_choose_x ( unsigned short n , unsigned short x ) ;
 
 #endif
