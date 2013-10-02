@@ -43,4 +43,10 @@ $(OBJECTS): $(OBJ_DIR)/%.o : $(SRC_DIR)/%.c
 .PHONEY: clean
 
 clean:
-		@$(rm) $(OBJECTS)
+		$(rm) $(OBJECTS)
+		@echo "Cleanup complete!"
+
+.PHONEY: remove
+remove: clean
+		@$(rm) $(OUT_DIR)/$(TARGET)
+		@echo "Executable removed!"
