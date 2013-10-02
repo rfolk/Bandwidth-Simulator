@@ -12,7 +12,7 @@
 	* Revised:
 	*/
 
-#include "../include/binomial_probability.h"
+#include "binomial_probability.h"
 
 double
 binomial_probability ( unsigned short n , unsigned short x , double p )

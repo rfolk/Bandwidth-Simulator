@@ -8,7 +8,6 @@
 #ifndef __FACTORIAL_H__
 	#define __FACTORIAL_H__
 
-	//  Limited to a product no greater than 18446744073709551615
 	double
 	factorial ( unsigned short start , unsigned short end ) ;
 

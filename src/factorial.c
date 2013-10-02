@@ -7,7 +7,7 @@
 	* Revised: 2013-09-30
 	*/
 
-#include "../include/factorial.h"
+#include "factorial.h"
 
 //  Cannot calculate with greater than 2^80 precision
 double

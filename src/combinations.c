@@ -7,7 +7,7 @@
 	* Revised: 2013-09-30
 	*/
 
-#include "../include/combinations.h"
+#include "combinations.h"
 
 // Calculate (n!)/(x!(n-x)!)
 double
